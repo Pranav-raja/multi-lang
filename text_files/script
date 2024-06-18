@@ -1,0 +1,28 @@
+<python name = myfile >
+print("hello world")
+print("hi there how are you")
+for i in range(5):
+    print(i)
+<python name = file2 >
+print("message from nested file")
+
+<pyhtml name = myhtml >
+<!doctype html>
+<html>
+<head>
+<title>example page</title>
+</head>
+<body>
+<h1>Hello World!!!</h1>
+<p>greeting from multi lang</p>
+</body>
+</html>
+</pyhtml>
+
+</python>
+print("out of nested python script")
+</python>
+
+<python name = myfile append = true >
+print("testing for the appending process in existing file")
+</python>

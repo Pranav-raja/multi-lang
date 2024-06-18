@@ -1,0 +1,26 @@
+how to share variables between multiple languages:
+
+1) JSON FILE STRUCTURE:
+    The idea lies behind is the useage of json file structure for the sharing of the variable,
+where one language can set the variable value and the other languages can use or manipulate the variable
+    procedure of using the variable is usage of double dollar "$$Variable_Name" symbol only for those variables that are
+being used across the languages
+    a JSON file is created and used for storing the variables and its values
+    every time the "$$" symbol is identified then the program writes a respective code for accessing the value of the
+variable for the respective kind of programming languages.
+
+
+WHAT IF?
+--THERE ARE NESTED PROGRAMMING LANGUGES FOR ACCESING THE VARIABLES:
+    consider the following example:
+        <python>
+            $$n = 5
+            if $$n == 5:
+                <js>
+                    $$n = 10
+                </js>
+            print($$n)
+        </python>
+
+        output:
+        10

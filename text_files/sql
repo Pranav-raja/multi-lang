@@ -1,0 +1,4 @@
+<mysql name = sqlfile host = localhost user = root password = Pranav@123 >
+use student
+select * from stud_details
+</mysql>

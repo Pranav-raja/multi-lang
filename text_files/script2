@@ -1,0 +1,11 @@
+<java name = myjavaclass >
+public class myjavaclass{
+    public static void main(String args[]){
+        System.out.println("hello World from my java class");
+        for(int i=0;i<5;i++){
+            System.out.println(i);
+        }
+    }
+}
+</java>
+
