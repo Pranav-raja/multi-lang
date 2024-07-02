@@ -1,13 +1,17 @@
 how to share variables between multiple languages:
 
 1) JSON FILE STRUCTURE:
-    The idea lies behind is the useage of json file structure for the sharing of the variable,
+    *) The idea lies behind is the useage of json file structure for the sharing of the variable,
 where one language can set the variable value and the other languages can use or manipulate the variable
-    procedure of using the variable is usage of double dollar "$$Variable_Name" symbol only for those variables that are
+    *) Procedure of using the variable is usage of double dollar "$$Variable_Name" symbol only for those variables that are
 being used across the languages
-    a JSON file is created and used for storing the variables and its values
-    every time the "$$" symbol is identified then the program writes a respective code for accessing the value of the
+    *) A JSON file is created and used for storing the variables and its values
+    *) Eevery time the "$$" symbol is identified then the program writes a respective code for accessing the value of the
 variable for the respective kind of programming languages.
+    *) Problems Associated with this:
+        - Need a concurrence mechanism to maintain the stability
+        - Function calling and setting value has to be carried out in smooth way, basically a user friendly way
+        - Parameters and arguments in function calling and setting has to be cleared
 
 
 WHAT IF?
